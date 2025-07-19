@@ -1,0 +1,38 @@
+# ---- Global ----
+*.log
+*.env
+.DS_Store
+node_modules/
+dist/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Frontend (React) ----
+myhospitalmanagementfrontend/node_modules/
+myhospitalmanagementfrontend/.env
+myhospitalmanagementfrontend/build/
+myhospitalmanagementfrontend/.next/
+myhospitalmanagementfrontend/.cache/
+myhospitalmanagementfrontend/.turbo/
+myhospitalmanagementfrontend/.vscode/
+
+# ---- Backend (Spring Boot) ----
+myhospitalmanagement/target/
+myhospitalmanagement/.idea/
+myhospitalmanagement/.classpath
+myhospitalmanagement/.project
+myhospitalmanagement/.settings/
+myhospitalmanagement/.vscode/
+myhospitalmanagement/.env
+
+# ---- OS generated ----
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# ---- Git ----
+.git/
