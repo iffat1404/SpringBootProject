@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import axiosInstance from "../utils/axiosInstance"
-import Toast from "../components/Toast"
-import themeStore from "../store/themeStore"
+import axiosInstance from "../../utils/axiosInstance"
+import Toast from "../../components/Toast"
+import themeStore from "../../store/themeStore"
 import {
   Calendar,
   Clock,

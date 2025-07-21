@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react"
-import axiosInstance from "../utils/axiosInstance"
-import Toast from "../components/Toast"
+import axiosInstance from "../../utils/axiosInstance"
+import Toast from "../../components/Toast"
 import { User, Mail, Phone, Calendar, MapPin, Trash2, FileText, Search, Filter, UserPlus, X, Pill } from "lucide-react"
 
 const AllPatients = () => {

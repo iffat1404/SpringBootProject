@@ -5,16 +5,16 @@ import Signup from "./Pages/Signup";
 import Page404 from "./Pages/Page404";
 import About from "./Pages/About";
 
-import AdminDashboard from "./Pages/AdminDashboard";
+import AdminDashboard from "./Pages/Admin/AdminDashboard";
 import DoctorDashboard from "./Pages/DoctorDashboard";
-import PatientDashboard from "./Pages/PatientDashboard";
-import AllPatients from "./Pages/AllPatients";
+import PatientDashboard from "./Pages/Patient/PatientDashboard";
+import AllPatients from "./Pages/Admin/AllPatients";
 import PublicLayout from "./layouts/PublicLayout";
 import MainLayout from "./layouts/MainLayout";
 import ProtectedRoute from "./components/ProtectedRoute";
-import AllDoctors from "./Pages/AllDoctors";
-import TodaysAppointments from "./Pages/TodayAppointments";
-import AdminAddAppointment from "./Pages/AdminAddAppointment";
+import AllDoctors from "./Pages/Admin/AllDoctors";
+import TodaysAppointments from "./Pages/Admin/TodayAppointments";
+import AdminAddAppointment from "./Pages/Admin/AdminAddAppointment";
 
 function App() {
   return (

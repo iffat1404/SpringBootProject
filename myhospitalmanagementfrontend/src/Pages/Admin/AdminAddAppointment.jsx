@@ -1,9 +1,8 @@
-"use client"
 
 import { useState, useEffect, useMemo } from "react"
-import axiosInstance from "../utils/axiosInstance"
-import Toast from "../components/Toast"
-import themeStore from "../store/themeStore"
+import axiosInstance from "../../utils/axiosInstance"
+import Toast from "../../components/Toast"
+import themeStore from "../../store/themeStore"
 import { useNavigate } from "react-router-dom"
 import {
   Calendar,

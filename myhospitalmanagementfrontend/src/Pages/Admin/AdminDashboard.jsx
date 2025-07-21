@@ -1,7 +1,7 @@
-import authStore from "../store/authStore"
-import Sidebar from "../components/Sidebar"
-import TopSearchBar from "../components/TopSearchBar"
-import themeStore from "../store/themeStore"
+import authStore from "../../store/authStore"
+import Sidebar from "../../components/Sidebar"
+import TopSearchBar from "../../components/TopSearchBar"
+import themeStore from "../../store/themeStore"
 
 const AdminDashboard = () => {
   const { isLoggedIn, role } = authStore((state) => state)
